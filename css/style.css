@@ -1,0 +1,21 @@
+.interpreter-container{
+
+	    height:200px;
+	    display: flex;
+	 }
+.console{
+	float: right;
+    width: 50%;
+    height: 100%;
+    background-color: #222;
+    color: #fff;
+    overflow-y: auto;
+}
+.editor{
+	float: left;
+    width: 50%;
+    height: 100%;
+}
+.CodeMirror {
+    height: 214px!important;
+}
